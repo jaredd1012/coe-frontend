@@ -1,6 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-#### Packages used with this project.
+#### Quick Start 
+npm install in order to install dependencies.
+Run npm start
+At this point you can run npm start to see the app running locally at http://localhost:3000.
+Run npm test to run tests.
+
+#### Documentation.
 
 -   [redux](https://redux.js.org/) - A predictable state container for JavaScript apps
 -   [react-redux](https://github.com/reduxjs/react-redux) - React bindings for Redux
