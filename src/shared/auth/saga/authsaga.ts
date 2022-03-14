@@ -1,4 +1,7 @@
+/* Saga Library */
 import { call, put, takeLatest, all, fork } from 'redux-saga/effects';
+
+/* Data */
 import * as actionTypes from '../actions/actions';
 import * as api from '../api/authapi';
 

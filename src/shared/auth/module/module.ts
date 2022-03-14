@@ -1,7 +1,10 @@
+/* Saga Library */
+import { ISagaModule } from 'redux-dynamic-modules-saga';
+
+/* Data */
 import reducer from '../reducers/authReducer';
 import authsaga from '../saga/authsaga';
 import * as types from '../types';
-import { ISagaModule } from 'redux-dynamic-modules-saga';
 
 export const AuthModule: ISagaModule<types.AuthState> = {
     // Unique id of the module

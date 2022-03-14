@@ -1,5 +1,8 @@
+/* Axios Framework*/
 import axios, { AxiosResponse } from 'axios';
 import mockAdapter from 'axios-mock-adapter';
+
+/* Data */
 import * as dataTypes from '../types';
 
 // MOCKING SHOULD BE REMOVED AFTER API IMPLEMENTATION

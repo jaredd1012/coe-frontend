@@ -1,6 +1,9 @@
+/* Framework */
+import { getType } from 'typesafe-actions';
+
+/* Data */
 import * as actionType from '../actions/actions';
 import { LayoutStateType } from '../types';
-import { getType } from 'typesafe-actions';
 // import { fetchLoginAsync } from '../actions/actions';
 
 const intialState: LayoutStateType = {

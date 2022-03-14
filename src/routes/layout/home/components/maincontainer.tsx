@@ -1,5 +1,8 @@
+/* Framework */
 import React from 'react';
 import { Box } from '@material-ui/core';
+
+/* UI Components */
 import { useStyles } from '../styles/layout';
 import { Copyright } from '../../common/copyright';
 

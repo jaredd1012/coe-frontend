@@ -1,5 +1,8 @@
-import reducer from '../reducers/layoutReducer';
+/* Framework */
 import { IModule } from 'redux-dynamic-modules';
+
+/* Data */
+import reducer from '../reducers/layoutReducer';
 import { LayoutRootState } from '../types';
 
 export const LayoutModule: IModule<LayoutRootState> = {
